@@ -8,8 +8,6 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
-      - name: Create folder for reports
-        run: mkdir reports
       - name: Robot Framework
         uses: joonvena/robotframework-docker-action@v1.0
         with:
